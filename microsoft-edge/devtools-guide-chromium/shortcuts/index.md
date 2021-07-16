@@ -1,9 +1,9 @@
 ---
 description: The canonical documentation for Microsoft Edge DevTools keyboard shortcuts.
-title: Microsoft Edge DevTools Keyboard Shortcuts
+title: Microsoft Edge DevTools keyboard shortcuts
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 12/17/2020 
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,12 +21,11 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->
-
 # Microsoft Edge DevTools keyboard shortcuts  
 
 This article is a reference of keyboard shortcuts in Microsoft Edge DevTools.
 
-You can also find shortcuts in tooltips.  Hover over a UI element of DevTools
+You may also find shortcuts in tooltips.  Hover on a UI element of DevTools
 to display the tooltip.  If the element has a shortcut, the tooltip includes it.
 
 ## Keyboard shortcuts for opening DevTools  
@@ -36,8 +35,8 @@ To open DevTools, select the following keyboard shortcuts while your cursor is f
 | Action | Windows\/Linux | macOS |  
 |:--- |:--- |:--- |  
 | Open whatever panel you used last | `F12` or `Control`+`Shift`+`I` | `Command`+`Option`+`I` |  
-| Open the **Console** panel | `Control`+`Shift`+`J` | `Command`+`Option`+`J` |  
-| Open the **Elements** panel | `Control`+`Shift`+`C` | `Command`+`Shift`+`C` or `Command`+`Option`+`C` |  
+| Open the **Console** tool | `Control`+`Shift`+`J` | `Command`+`Option`+`J` |  
+| Open the **Elements** tool | `Control`+`Shift`+`C` | `Command`+`Shift`+`C` or `Command`+`Option`+`C` |  
 
 ## Global keyboard shortcuts  
 
@@ -53,11 +52,11 @@ The following keyboard shortcuts are available in most, if not all, DevTools pan
 | Toggle **Inspect Element Mode** | `Control`+`Shift`+`C` | `Command`+`Shift`+`C` |  
 | Open the [Command Menu][DevtoolsCommandMenuIndex] | `Control`+`Shift`+`P` | `Command`+`Shift`+`P` |  
 | Toggle the [Drawer][DevtoolsCustomizeIndexDrawer] | `Escape` | `Escape` |  
-| Normal reload | `F5` or `Control`+`R` | `Command`+`R` |  
-| Hard reload | `Control`+`F5` or `Control`+`Shift`+`R` | `Command`+`Shift`+`R` |  
-| Search for text within the current panel.  Not supported in the **Audits**, **Application**, and **Security** panels | `Control`+`F` | `Command`+`F` |  
+| Normal refresh | `F5` or `Control`+`R` | `Command`+`R` |  
+| Hard refresh | `Control`+`F5` or `Control`+`Shift`+`R` | `Command`+`Shift`+`R` |  
+| Search for text within the current panel.  Not supported in the **Audits**, **Application**, and **Security** tools | `Control`+`F` | `Command`+`F` |  
 | Opens the **Search** tab in the [Drawer][DevtoolsCustomizeIndexDrawer], which lets you search for text across all loaded resources | `Control`+`Shift`+`F` | `Command`+`Option`+`F` |  
-| Open a file in the **Sources** panel | `Control`+`O` or `Control`+`P` | `Command`+`O` or `Command`+`P` |  
+| Open a file in the **Sources** tool | `Control`+`O` or `Control`+`P` | `Command`+`O` or `Command`+`P` |  
 | Zoom in | `Control`+`Shift`+`+` | `Command`+`Shift`+`+` |  
 | Zoom out | `Control`+`-` | `Command`+`-` |  
 | Restore default zoom level | `Control`+`0` | `Command`+`0` |  
@@ -66,7 +65,7 @@ The following keyboard shortcuts are available in most, if not all, DevTools pan
 <!-- TODO: make a bug about this UIPlacement link being ambiguous.  -->  
 <!-- TODO: Link "Inspect Element Mode" when a good section exists.  -->  
 
-## Elements panel keyboard shortcuts  
+## Elements tool keyboard shortcuts  
 
 | Action | Windows\/Linux | macOS |  
 |:--- |:--- |:--- |  
@@ -81,11 +80,11 @@ The following keyboard shortcuts are available in most, if not all, DevTools pan
 | Hide the currently selected element | `H` | `H` |  
 | Toggle **Edit as HTML** mode on the currently selected element | `Function`+`F2` | `F2` |  
 
-### Styles pane keyboard shortcuts  
+### Styles panel keyboard shortcuts  
 
 | Action | Windows\/Linux | macOS |  
 |:--- |:--- |:--- |  
-| Go to the line where a property value is declared | Hold `Control`, then select the property value | Hold `Command`, then select the property value |  
+| Navigate to the line where a property value is declared | Hold `Control`, then select the property value | Hold `Command`, then select the property value |  
 | Cycle through the RBGA, HSLA, and Hex representations of a color value | Hold `Shift`, then choose the **Color Preview** box next to the value | Hold `Shift`, then choose the **Color Preview** box next to the value |  
 | Select the next / previous property or value | Choose a property name or value, then select `Tab` / `Shift`+`Tab` | Choose a property name or value, then select `Tab` / `Shift`+`Tab` |  
 | Increment / decrement a property value by 0.1 | Choose a value, then select `Alt`+`Up Arrow` / `Alt`+`Down Arrow` | Choose a value, then select `Option`+`Up Arrow` / Option+Down Arrow |  
@@ -93,7 +92,7 @@ The following keyboard shortcuts are available in most, if not all, DevTools pan
 | Increment / decrement a property value by 10 | Choose a value, then select `Shift`+`Up Arrow` / `Shift`+`Down Arrow` | Choose a value, then select `Shift`+`Up Arrow` / `Shift`+`Down Arrow` |  
 | Increment / decrement a property value by 100 | Choose a value, then select `Control`+`Up Arrow` / `Control`+`Down Arrow` | Choose a value, then select `Command`+`Up Arrow` / `Command`+`Down Arrow` |  
 
-## Sources panel keyboard shortcuts  
+## Sources tool keyboard shortcuts  
 
 | Action | Windows\/Linux | macOS |  
 |:--- |:--- |:--- |  
@@ -105,10 +104,10 @@ The following keyboard shortcuts are available in most, if not all, DevTools pan
 | Select the call frame below / above the currently selected frame | `Control`+`.` / `Control`+`,` | `Control`+`.` / `Control`+`,` |  
 | Save changes to local modifications | `Control`+`S` | `Command`+`S` |  
 | Save all changes | `Control`+`Alt`+`S` | `Command`+`Option`+`S` |  
-| Go to line | `Control`+`G` | `Control`+`G` |  
+| Navigate to line | `Control`+`G` | `Control`+`G` |  
 | Jump to a line number of the currently open file | Select `Control`+`O` to open the [Command Menu][DevtoolsCommandMenuIndex], type `:` followed by the line number, then select `Enter` | Select `Command`+`O` to open the [Command Menu][DevtoolsCommandMenuIndex], type `:` followed by the line number, then select `Enter` |  
 | Jump to a column of the currently open file \(for example line 5, column 9\) | Select `Control`+`O` to open the [Command Menu][DevtoolsCommandMenuIndex], type `:`, then the line number, then another `:`, then the column number, then select `Enter` | Select `Command`+`O` to open the [Command Menu][DevtoolsCommandMenuIndex], type `:`, then the line number, then another `:`, then the column number, then select `Enter` |  
-| Go to a function declaration, if the current file is HTML or a script.  <br />  Go to a rule set, if the current file is a stylesheet.  | Select `Control`+`Shift`+`O`, then type in the name of the declaration / rule set, or select it from the list of options | Select `Command`+`Shift`+`O`, then type in the name of the declaration / rule set, or select it from the list of options |  
+| Navigate to a function declaration, if the current file is HTML or a script.  <br />  Navigate to a rule set, if the current file is a stylesheet.  | Select `Control`+`Shift`+`O`, then type in the name of the declaration / rule set, or select it from the list of options | Select `Command`+`Shift`+`O`, then type in the name of the declaration / rule set, or select it from the list of options |  
 | Close the active tab | `Alt`+`W` | `Option`+`W` |  
 
 ### Code Editor keyboard shortcuts  
@@ -117,11 +116,11 @@ The following keyboard shortcuts are available in most, if not all, DevTools pan
 |:--- |:--- |:--- |  
 | Delete all characters in the last word, up to the cursor | `Control`+`Delete` | `Option`+`Delete` |  
 | Add or remove a [line-of-code breakpoint][DevtoolsJavascriptBreakpointsLOC] | Focus your cursor on the line, then select `Control`+`B` | Focus your cursor on the line, then select `Command`+`B` |  
-| Go to matching bracket | `Control`+`M` | `Control`+`M` |  
+| Navigate to matching bracket | `Control`+`M` | `Control`+`M` |  
 | Toggle single-line comment.  If multiple lines are selected, DevTools add a comment to the start of each line | `Control`+`/` | `Command`+`/` |  
-| Select / de-select the next occurrence of whatever word the cursor is on.  Each occurrence is highlighted simultaneously | `Control`+`D` / `Control`+`U` | `Command`+`D` / `Command`+`U` |  
+| Turn on or off the next occurrence of whatever word the cursor is on.  Each occurrence is highlighted simultaneously | `Control`+`D` / `Control`+`U` | `Command`+`D` / `Command`+`U` |  
 
-## Performance panel keyboard shortcuts  
+## Performance tool keyboard shortcuts  
 
 | Action | Windows\/Linux | macOS |  
 |:--- |:--- |:--- |  
@@ -129,13 +128,13 @@ The following keyboard shortcuts are available in most, if not all, DevTools pan
 | Save recording | `Control`+`S` | `Command`+`S` |  
 | Load recording | `Control`+`O` | `Command`+`O` |  
 
-## Memory panel keyboard shortcuts  
+## Memory tool keyboard shortcuts  
 
 | Action | Windows\/Linux | macOS |  
 |:--- |:--- |:--- |  
 | Start / stop recording | `Control`+`E` | `Command`+`E` |  
 
-## Console panel keyboard shortcuts  
+## Console tool keyboard shortcuts  
 
 | Action | Windows\/Linux | macOS |  
 |:--- |:--- |:--- |  
@@ -147,15 +146,11 @@ The following keyboard shortcuts are available in most, if not all, DevTools pan
 | Clear the **Console** | `Control`+`L` | `Command`+`K` or `Option`+`L` |  
 | Force a multi-line entry.  This shortcut is mostly unnecessary, because DevTools should detect multi-line scenarios by default | `Shift`+`Enter` | `Command`+`Return` |  
 | Run | `Enter` | `Return` |  
-| Expand all subproperties of an object that are logged to the Console | Hold `Alt`, then choose **Expand** \(![Expand][ImageExpandIcon]\) | Hold `Alt`, then choose **Expand** \(![Expand][ImageExpandIcon]\) |  
+| Expand all subproperties of an object that are logged to the Console | Hold `Alt`, then choose **Expand** \(![Expand](../media/expand-icon.msft.png)\) | Hold `Alt`, then choose **Expand** \(![Expand](../media/expand-icon.msft.png)\) |  
 
 ## Getting in touch with the Microsoft Edge DevTools team  
 
 [!INCLUDE [contact DevTools team note](../includes/contact-devtools-team-note.md)]  
-
-<!-- image links -->  
-
-[ImageExpandIcon]: ../media/expand-icon.msft.png  
 
 <!-- links -->  
 
@@ -177,4 +172,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  

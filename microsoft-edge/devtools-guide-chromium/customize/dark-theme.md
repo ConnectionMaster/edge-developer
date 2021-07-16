@@ -1,9 +1,9 @@
 ---
 description: How to turn on the dark theme in Microsoft Edge DevTools.
-title: Enable Dark Theme In Microsoft Edge DevTools
+title: Enable Dark Theme in Microsoft Edge DevTools
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 10/19/2020 
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,8 +21,7 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->
-
-# Enable Dark Theme In Microsoft Edge DevTools  
+# Enable Dark Theme in Microsoft Edge DevTools  
 
 You may enable dark theme in [Settings](#set-up-dark-theme-from-settings) or the [Command Menu](#set-up-dark-theme-from-the-command-menu).  
 
@@ -32,13 +31,13 @@ You may enable dark theme in [Settings](#set-up-dark-theme-from-settings) or the
 
 ## Set up dark theme from Settings  
 
-1.  Choose **Customize And Control DevTools** \(`...`\) and then choose **Settings**.  You may also open **Settings** by pressing `F1`.  
+1.  Choose **Customize And Control DevTools** \(`...`\) > **Settings**.  You may also open **Settings** by selecting `F1`.  
     
     :::image type="complex" source="../media/customize-options-settings.msft.png" alt-text="Open Settings" lightbox="../media/customize-options-settings.msft.png":::
        Open **Settings**  
     :::image-end:::  
 
-1.  On the **Preferences** pane,  under **Appearance**, click on the **Theme** drop-down, and choose **Dark**.  
+1.  On the **Preferences** pane,  under **Appearance**, choose **Theme** > **Dark**.  
     
     :::image type="complex" source="../media/customize-settings-preferences-appearance-theme-dark.msft.png" alt-text="Preferences" lightbox="../media/customize-settings-preferences-appearance-theme-dark.msft.png":::
        **Preferences**  
@@ -47,7 +46,7 @@ You may enable dark theme in [Settings](#set-up-dark-theme-from-settings) or the
 ## Set up dark theme from the Command Menu  
 
 1.  [Open the Command Menu][DevtoolsCommandMenu].  
-1.  Start typing `dark`, select the **Switch To Dark Theme** command, and then select `Enter` to run the command.  
+1.  Type `dark`, choose the **Switch To Dark Theme** command, and then select `Enter` to run the command.  
     
     :::image type="complex" source="../media/customize-command-menu-dark.msft.png" alt-text="The dark theme command" lightbox="../media/customize-command-menu-dark.msft.png":::
        The dark theme command  
@@ -71,4 +70,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  

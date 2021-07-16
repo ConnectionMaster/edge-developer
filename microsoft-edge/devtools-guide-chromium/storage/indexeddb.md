@@ -1,9 +1,9 @@
 ---
 description: How to view and change IndexedDB data with the Application panel and Snippets.
-title: View And Change IndexedDB Data With Microsoft Edge DevTools
+title: View and change IndexedDB data with Microsoft Edge DevTools
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 12/11/2020 
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,7 +21,6 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->  
-
 # View and change IndexedDB data with Microsoft Edge DevTools  
 
 This guide shows you how to use [Microsoft Edge DevTools][MicrosoftEdgeDevTools] to view and change [IndexedDB][MDNIndexedDBAPI] data.  It assumes you are familiar with DevTools.  It also assumes you are familiar with IndexedDB.  If not, navigate to [Using IndexedDB][MDNUsingIndexedDB].  
@@ -40,8 +39,8 @@ This guide shows you how to use [Microsoft Edge DevTools][MicrosoftEdgeDevTools]
        The **IndexedDB** menu  
     :::image-end:::  
     
-    *   \(![Database icon][ImageDatabaseIcon]\) `notes - https://mdn.github.io` represents a database, where `notes` is the name of the database and `https://mdn.github.io` is the origin that accesses the database.  
-    *   \(![Object Store icon][ImageObjectStoreIcon]\) `notes` is an object store.  
+    *   \(![Database icon](../media/database-icon.msft.png)\) `notes - https://mdn.github.io` represents a database, where `notes` is the name of the database and `https://mdn.github.io` is the origin that accesses the database.  
+    *   \(![Object Store icon](../media/object-store-icon.msft.png)\) `notes` is an object store.  
     *   **title** and **body** are [indexes][MDNUsingIndexedDBUsingIndex].  
     
     > [!NOTE]
@@ -79,7 +78,7 @@ This guide shows you how to use [Microsoft Edge DevTools][MicrosoftEdgeDevTools]
     
 ## Refresh IndexedDB data  
 
-IndexedDB values in the **Application** tool do not update in real-time.  Choose **Refresh** \(![Refresh][ImageReloadIcon]\) when viewing an object store to refresh the data, or view a database and choose **Refresh database** to refresh all data.  
+IndexedDB values in the **Application** tool do not update in real-time.  Choose **Refresh** \(![Refresh](../media/reload-icon.msft.png)\) when viewing an object store to refresh the data, or view a database and choose **Refresh database** to refresh all data.  
 
 :::image type="complex" source="../media/storage-application-storage-indexeddb-notes_db-notes_os-refresh-database.msft.png" alt-text="View a database" lightbox="../media/storage-application-storage-indexeddb-notes_db-notes_os-refresh-database.msft.png":::
    View a database  
@@ -102,13 +101,13 @@ IndexedDB keys and values are not editable from the **Application** tool.  Since
 ### Delete an IndexedDB key-value pair  
 
 1.  [View an IndexedDB object store](#view-indexeddb-data).  
-1.  Select the key-value pair that you want to delete.  DevTools highlights it to indicate that it is selected.  
+1.  Choose the key-value pair that you want to delete.  DevTools highlights it to indicate that it is selected.  
     
-    :::image type="complex" source="../media/storage-application-storage-indexeddb-notes_db-notes_os2.msft.png" alt-text="Select a key-value pair in order to delete it" lightbox="../media/storage-application-storage-indexeddb-notes_db-notes_os2.msft.png":::
-       Select a key-value pair in order to delete it  
+    :::image type="complex" source="../media/storage-application-storage-indexeddb-notes_db-notes_os2.msft.png" alt-text="Choose a key-value pair in order to delete it" lightbox="../media/storage-application-storage-indexeddb-notes_db-notes_os2.msft.png":::
+       Choose a key-value pair in order to delete it  
     :::image-end:::  
     
-1.  Press the `Delete` key or choose **Delete Selected** \(![Delete Selected][ImageDeleteIcon]\).  
+1.  Select the `Delete` key or choose **Delete Selected** \(![Delete Selected](../media/delete-icon.msft.png)\).  
     
     :::image type="complex" source="../media/storage-application-storage-indexeddb-notes_db-notes_os-delete-selected.msft.png" alt-text="How the object store looks after the key-value pair has been deleted" lightbox="../media/storage-application-storage-indexeddb-notes_db-notes_os-delete-selected.msft.png":::
        How the object store looks after the key-value pair has been deleted  
@@ -122,7 +121,7 @@ IndexedDB keys and values are not editable from the **Application** tool.  Since
        View an object store  
     :::image-end:::  
     
-1.  Choose **Clear object store** \(![Clear object store][ImageClearIcon]\).  
+1.  Choose **Clear object store** \(![Clear object store](../media/clear-icon.msft.png)\).  
     
 ### Delete an IndexedDB database  
 
@@ -147,14 +146,6 @@ IndexedDB keys and values are not editable from the **Application** tool.  Since
 
 [!INCLUDE [contact DevTools team note](../includes/contact-devtools-team-note.md)]  
 
-<!-- image links -->  
-
-[ImageClearIcon]: ../media/clear-icon.msft.png  
-[ImageDatabaseIcon]: ../media/database-icon.msft.png  
-[ImageDeleteIcon]: ../media/delete-icon.msft.png  
-[ImageObjectStoreIcon]: ../media/object-store-icon.msft.png  
-[ImageReloadIcon]: ../media/reload-icon.msft.png  
-
 <!-- links -->  
 
 [MicrosoftEdgeDevTools]: ../../devtools-guide-chromium/index.md "Microsoft Edge (Chromium) Developer tools | Microsoft Docs"  
@@ -177,4 +168,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  

@@ -1,9 +1,9 @@
 ---
 description: Host a site on a development machine web server, and then access the content from an Android device.
-title: Access Local Servers
+title: Access local servers
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 10/19/2020 
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,7 +21,6 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->  
-
 # Access local servers  
 
 Host a site on a development machine web server, then access the content from an Android device.  
@@ -39,7 +38,7 @@ Port forwarding enables your Android device to access content that is being host
 
 To enable port forwarding:  
 
-1.  Set up [remote debugging][RemoteDebuggingGettingStarted] between your development machine and your Android device.  When you are finished, you should see your Android device in the left-hand menu of the **Inspect Devices** dialog and a **Connected** status indicator.  
+1.  Set up [remote debugging][RemoteDebuggingGettingStarted] between your development machine and your Android device.  When you are finished, your Android device should be displayed in the left-hand menu of the **Inspect Devices** dialog and a **Connected** status indicator.  
 1.  In the **Inspect Devices** dialog in DevTools, enable **Port forwarding**.  
 1.  Choose **Add rule**.  
     
@@ -51,7 +50,7 @@ To enable port forwarding:
 1.  In the **Local address** textbox on the right, enter the IP address or hostname on which your site is hosted on the web server running in your development machine, followed by the port number.  For example, if your site is running on `localhost:7331` enter `localhost:7331`.  
 1.  Choose **Add**.  
     
-Port forwarding is now set up.  See the status indicator for the port forward on the tab on your device within the **Inspect Devices** dialog.  
+Port forwarding is now set up.  Review the status indicator for the port forward on the tab on your device within the **Inspect Devices** dialog.  
 
 :::image type="complex" source="../media/remote-debugging-remote-devices-devices-port-forwarding-5000-edge-user-agent.msft.png" alt-text="Port forwarding status" lightbox="../media/remote-debugging-remote-devices-devices-port-forwarding-5000-edge-user-agent.msft.png":::
    Port forwarding status  
@@ -67,7 +66,7 @@ For example, suppose that your site uses a third-party JavaScript library that o
 
 ### Set up port forwarding to proxy server  
 
-To map a custom domain you must run a proxy server on your development machine.  Examples of proxy servers are [Charles][CharlesWebDebuggingProxy], [Squid][SquidOptimisingWebDelivery], and [Fiddler][FiddlerWebDebuggingProxy].  
+To map a custom domain you must run a proxy server on your development machine.  Examples of proxy servers are [Charles][CharlesWebDebuggingProxy], [Squid][SquidCacheWiki], and [Fiddler][TelerikFiddler].  
 
 To set up port forwarding to a proxy:  
 
@@ -82,7 +81,7 @@ To set up port forwarding to a proxy:
 
 Next, you need to configure your Android device to communicate with the proxy server.  
 
-1.  On your Android device go to **Settings** > **Wi-Fi**.  
+1.  On your Android device, navigate to **Settings** > **Wi-Fi**.  
 1.  Long-press the name of the network to which you are currently connected.  
     
     > [!NOTE]
@@ -90,7 +89,7 @@ Next, you need to configure your Android device to communicate with the proxy se
     
 1.  Choose **Modify network**.  
 1.  Choose **Advanced options**.  The proxy settings display.  
-1.  Select the **Proxy** menu and choose **Manual**.  
+1.  Choose the **Proxy** menu and choose **Manual**.  
 1.  For the **Proxy hostname** field, enter `localhost`.  
 1.  For the **Proxy port** field, enter the port number that you entered for **device port** in the previous section.  
 1.  Choose **Save**.  
@@ -114,9 +113,9 @@ If your web server is running off of a non-standard port, remember to specify th
 
 [CharlesWebDebuggingProxy]: https://www.charlesproxy.com "Charles Web Debugging Proxy"  
 
-[SquidOptimisingWebDelivery]: https://www.squid-cache.org "squid : Optimising Web Delivery"  
+[SquidCacheWiki]: https://wiki.squid-cache.org "Squid Wiki Proxy Wiki"  
 
-[FiddlerWebDebuggingProxy]: https://www.telerik.com/fiddler "Fiddler - Free Web Debugging Proxy"  
+[TelerikFiddler]: https://www.telerik.com/fiddler "Fiddler - Free Web Debugging Proxy"  
 
 > [!NOTE]
 > Portions of this page are modifications based on work created and [shared by Google][GoogleSitePolicies] and used according to terms described in the [Creative Commons Attribution 4.0 International License][CCA4IL].  
@@ -128,5 +127,5 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
-[MegginKearney]: https://developers.google.com/web/resources/contributors/megginkearney  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  
+[MegginKearney]: https://developers.google.com/web/resources/contributors#meggin-kearney  

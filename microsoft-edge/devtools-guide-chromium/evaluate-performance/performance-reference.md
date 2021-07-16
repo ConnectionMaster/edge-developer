@@ -1,9 +1,9 @@
 ---
 description: The timeline events mode displays all events triggered while making a recording.  Use the timeline event reference to learn more about each timeline event type.
-title: Timeline Event Reference
+title: Timeline Event reference
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 10/19/2020 
+ms.date: 05/04/2021 
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,8 +21,7 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->
-
-# Timeline Event Reference  
+# Timeline Event reference  
 
 The timeline events mode displays all events triggered while making a recording.  Use the timeline event reference to learn more about each timeline event type.  
 
@@ -74,7 +73,7 @@ This section lists events that belong to the Scripting category and their proper
 | Animation Frame Fired | A scheduled animation frame fired, and its callback handler invoked. |  
 | Cancel Animation Frame |  A scheduled animation frame was canceled. |  
 | GC Event |  Garbage collection occurred. |  
-| DOMContentLoaded |  The [DOMContentLoaded event][MDNWindowDOMContentLoadedEvent] was fired by the browser.  This event is fired when all of the page's DOM content has been loaded and parsed. |  
+| DOMContentLoaded |  The [DOMContentLoaded event][MDNWindowDOMContentLoadedEvent] was fired by the browser.  This event is fired when all of the DOM content of the page is loaded and parsed. |  
 | Evaluate Script | A script was evaluated. |  
 | Event | A JavaScript event \(for example, `mousedown`, or `key`\). |  
 | Function Call | A top-level JavaScript function call was made \(only appears when browser enters JavaScript engine\). |  
@@ -160,6 +159,6 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
-[MegginKearney]: https://developers.google.com/web/resources/contributors/megginkearney  
-[FlavioCopes]: https://developers.google.com/web/resources/contributors/flaviocopes  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  
+[MegginKearney]: https://developers.google.com/web/resources/contributors#meggin-kearney  
+[FlavioCopes]: https://developers.google.com/web/resources/contributors#flavio-copes  

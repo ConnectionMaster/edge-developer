@@ -3,7 +3,7 @@ description: 3D View, Visual Studio integration with Microsoft Edge, and more.
 title: What's new in DevTools (Microsoft Edge 81)
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 09/11/2020 
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,12 +21,11 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->  
-
 # What's New In DevTools (Microsoft Edge 81)  
 
 ## Announcements from the Microsoft Edge DevTools team  
 
-The following sections are a list of announcements you may have missed from the Microsoft Edge DevTools team! Check them out to try new features in the DevTools, Visual Studio Code extensions, and more.  To stay up to date on all the latest and greatest features in your developer tools, download the [Microsoft Edge preview channels][MicrosoftEdgePreviewChannels] and [follow us on Twitter][EdgeDevToolsTwitterAccount].  
+The following sections are a list of announcements you may have missed from the Microsoft Edge DevTools team.  Check out the announcements to try new features in the DevTools, Microsoft Visual Studio Code extensions, and more.  To stay up to date on all the latest and greatest features in your developer tools, download the [Microsoft Edge preview channels][MicrosoftEdgePreviewChannels] and [follow us on Twitter][EdgeDevToolsTwitterAccount].  
 
 ### Accessibility improvements to the DevTools  
 
@@ -38,7 +37,7 @@ The DevTools team has contributed 170 changes to Chromium to address high-impact
 
 Want to learn how to make your web page accessible to all of your users?  Download the [Accessibility Insights][AccessibilityInsights] and [webhint][WebhintBrowserExtension] extensions for Microsoft Edge to get started.  
 
-If you use screen readers or the keyboard to navigate around the DevTools, send us your feedback by [tweeting][PostTweetEdgeDevTools] at us or clicking the [Send Feedback](#getting-in-touch-with-microsoft-edge-devtools-team) icon!  
+If you use screen readers or the keyboard to navigate around the DevTools, send us your feedback by [tweeting][PostTweetEdgeDevTools] at us orchoosing the [Send Feedback](#getting-in-touch-with-microsoft-edge-devtools-team) icon!  
 
 Chromium issue [#963183][CR963183]  
 
@@ -99,7 +98,7 @@ Many developers use other developer tools, like StackOverflow and Visual Studio 
 
 The DevTools automatically match the language you use for Microsoft Edge in `edge://settings/languages`.  
 
-If you want Microsoft Edge to be in one language and your DevTools to remain in English, press `F1` in the DevTools to open [Settings][Settings] and disable **Match browser language**.  
+If you want Microsoft Edge to be in one language and your DevTools to remain in English, select `F1` in the DevTools to open [Settings][DevtoolsCustomizeIndexSettings] and disable **Match browser language**.  
 
 :::image type="complex" source="../../images/2020/01/localized-devtools.msft.png" alt-text="The DevTools in German" lightbox="../../images/2020/01/localized-devtools.msft.png":::
    The DevTools in German  
@@ -107,7 +106,7 @@ If you want Microsoft Edge to be in one language and your DevTools to remain in 
 
 **Console** messages are not localized.  Only the strings used in the DevTools UI are displayed in the language you use for Microsoft Edge.  
 
-If you want to use the DevTools in a different language than the ones that are available, [tweet][PostTweetEdgeDevTools] at us or click the [Send Feedback](#getting-in-touch-with-microsoft-edge-devtools-team) icon.  
+If you want to use the DevTools in a different language than the ones that are available, [tweet][PostTweetEdgeDevTools] at us or choose the [Send Feedback](#getting-in-touch-with-microsoft-edge-devtools-team) icon.  
 
 Chromium issue [#941561][CR941561]  
 
@@ -115,11 +114,11 @@ Chromium issue [#941561][CR941561]
 
 The webhint Microsoft Edge extension allows you to easily scan your web page and get feedback on accessibility, browser compatibility, security, performance, and more within the DevTools.  Read more at [https://webhint.io][Webhint].  
 
-:::image type="complex" source="../../images/2020/01/webhint-browser-extension.msft.png" alt-text="The Hints tab in the DevTools when the webhint browser extension is installed" lightbox="../../images/2020/01/webhint-browser-extension.msft.png":::
-   The **Hints** tab in the DevTools when the webhint browser extension is installed  
+:::image type="complex" source="../../images/2020/01/webhint-browser-extension.msft.png" alt-text="The Hints tool in the DevTools when the webhint browser extension is installed" lightbox="../../images/2020/01/webhint-browser-extension.msft.png":::
+   The **Hints** tool in the DevTools when the webhint browser extension is installed  
 :::image-end:::  
 
-[Try the webhint browser extension in Microsoft Edge][MicrosoftEdgeInsiderAddons].  Once you install the extension, open the DevTools and select the Hints tab.  From here, run a customizable site scan.  Head over to [webhint.io][WebhintBrowserExtension] to learn more.  
+[Try the webhint browser extension in Microsoft Edge][MicrosoftEdgeInsiderAddons].  Once you install the extension, open the DevTools and choose the **Hints** tool.  From here, run a customizable site scan.  Head over to [webhint.io][WebhintBrowserExtension] to learn more.  
 
 ### 3D View  
 
@@ -129,9 +128,9 @@ Use the **3D View** to debug your web application by navigating through the [Doc
    The 3D View in the DevTools  
 :::image-end:::  
 
-To access the 3D View, press `Ctrl` + `Shift` + `P`, type in **3D View** and select **Show 3D View**.  
+To access the 3D View, select `Ctrl` + `Shift` + `P`, type in **3D View** and select **Show 3D View**.  
 
-We're working on the UI and adding more functionality to the 3D View, so please send us your [feedback](#getting-in-touch-with-microsoft-edge-devtools-team).  
+The Microsoft Edge team is working with the Chromium team on the UI and adding more functionality to the 3D View, so please send your [feedback](#getting-in-touch-with-microsoft-edge-devtools-team).  
 
 Chromium issue [#987787][CR987787]  
 
@@ -161,7 +160,7 @@ For more information, check out [how to debug Microsoft Edge from Visual Studio 
 
 #### webhint  
 
-The [webhint][VisualStudioMarketplaceWebhintExtension] Visual Studio Code extension uses `webhint` to improve your web page while you're writing it! This extension runs and reports diagnostics on your workspace files based on `webhint` analysis.  
+The [webhint][VisualStudioMarketplaceWebhintExtension] Visual Studio Code extension uses `webhint` to improve your web page while you are writing it.  This extension runs and reports diagnostics on your workspace files based on `webhint` analysis.  
 
 :::image type="complex" source="../../images/2020/01/webhint-vscode-extension.msft.png" alt-text="The webhint Visual Studio Code extension analyzing a .tsx file in Visual Studio Code" lightbox="../../images/2020/01/webhint-vscode-extension.msft.png":::
    The webhint Visual Studio Code extension analyzing a `.tsx` file in Visual Studio Code  
@@ -177,14 +176,14 @@ In Visual Studio 2019 version 16.2 or later, use the Visual Studio debugger to d
    Visual Studio with the option to launch your web app in Microsoft Edge Canary, Dev, or Beta  
 :::image-end:::  
 
-[Learn more about debugging Microsoft Edge from Visual Studio][MicrosoftVisualStudio].  
+[Learn more about debugging Microsoft Edge from Visual Studio][VisualStudioIndex].  
 
 ### Tracking prevention Console messages  
 
-Tracking prevention is a unique feature in Microsoft Edge that protects you from being tracked by websites you haven't visited before.  The default tracking prevention setting is Balanced mode, which blocks 3rd party trackers and known malicious trackers for an experience that balances privacy and web compatibility.  To give you more insight into the compatibility of your web page when certain trackers are blocked, we've also added warning messages in the Console when a tracker is blocked.  
+Tracking prevention is a unique feature in Microsoft Edge that protects you from being tracked by websites you have not visited before.  The default tracking prevention setting is Balanced mode, which blocks 3rd party trackers and known malicious trackers for an experience that balances privacy and web compatibility.  To give you more insight into the compatibility of your web page when certain trackers are blocked, warning messages were added in the **Console** when a tracker is blocked.  
 
 :::image type="complex" source="../../images/2020/01/tracking-prevention.msft.png" alt-text="Messages in the Console when tracking prevention blocks access to storage for a tracker" lightbox="../../images/2020/01/tracking-prevention.msft.png":::
-   Messages in the Console when tracking prevention blocks access to storage for a tracker  
+   Messages in the **Console** when tracking prevention blocks access to storage for a tracker  
 :::image-end:::  
 
 [Read more about tracking prevention and the balance between privacy and web compatibility][TrackingPrevention].  
@@ -195,13 +194,13 @@ The following sections announce additional features available in Microsoft Edge 
 
 ### Moto G4 support in Device Mode  
 
-After [enabling the Device Toolbar][DeviceToolbar], simulate the dimensions of a Moto G4 viewport from the **Device** list.  
+After [enabling the Device Toolbar][DevtoolsDeviceModeIndexSimulateMobileViewport], simulate the dimensions of a Moto G4 viewport from the **Device** list.  
 
 :::image type="complex" source="../../images/2020/01/motog4.msft.png" alt-text="Simulating a Moto G4 viewport" lightbox="../../images/2020/01/motog4.msft.png":::
    Simulating a Moto G4 viewport  
 :::image-end:::  
 
-Click [Show Device Frame][DeviceFrame] to show the Moto G4 hardware around the viewport.  
+Choose [Show Device Frame][DevtoolsDeviceModeIndexShowDeviceFrame] to show the Moto G4 hardware around the viewport.  
 
 :::image type="complex" source="../../images/2020/01/motog4frame.msft.png" alt-text="Showing the Moto G4 hardware" lightbox="../../images/2020/01/motog4frame.msft.png":::
    Showing the Moto G4 hardware  
@@ -209,8 +208,8 @@ Click [Show Device Frame][DeviceFrame] to show the Moto G4 hardware around the v
 
 Related features:  
 
-*   Open the [Command Menu][CommandMenu] and run the `Capture screenshot` command to take a screenshot of the viewport that includes the Moto G4 hardware (after enabling **Show Device Frame**).  
-*   [Throttle the network and CPU][ThrottleNetworkAndCpu] to more accurately simulate a mobile user's web browsing conditions.  
+*   Open the [Command Menu][DevtoolsCommandMenuIndex] and run the `Capture screenshot` command to take a screenshot of the viewport that includes the Moto G4 hardware (after enabling **Show Device Frame**).  
+*   [Throttle the network and CPU][DevtoolsDeviceModeIndexThrottleNetworkCpu] to more accurately simulate a mobile user's web browsing conditions.  
 
 Chromium issue [#924693][CR924693]  
 
@@ -228,7 +227,7 @@ Chromium issue [#1030258][CR1030258]  <!-- inaccessible  -->
 
 #### Cookie priority in the Cookie pane  
 
-The Cookies tables in the Network and Application panels now include a **Priority** column.  
+The Cookies tables in the **Network** and **Application** tools now include a **Priority** column.  
 
 > [!CAUTION]
 > Chromium-based browsers, like Microsoft Edge, are the only browsers that support cookie priority.  
@@ -237,7 +236,7 @@ Chromium issue [#1026879][CR1026879]
 
 #### Edit all cookie values  
 
-All cells in the Cookie tables are editable now, except cells in the **Size** column because that column represents the network size of the cookie, in bytes.  See [Fields][CookiesFields] for an explanation of each column.  
+All cells in the Cookie tables are editable now, except cells in the **Size** column because that column represents the network size of the cookie, in bytes.  For an explanation of each column, navigate to [Fields][DevtoolsStorageCookiesFields].  
 
 :::image type="complex" source="../../images/2020/01/editcookie.msft.png" alt-text="Editing a cookie value" lightbox="../../images/2020/01/editcookie.msft.png":::
    Editing a cookie value  
@@ -245,7 +244,7 @@ All cells in the Cookie tables are editable now, except cells in the **Size** co
 
 #### Copy as Node.js fetch to include cookie data  
 
-Right-click a network request and select **Copy** > **Copy as Node.js fetch** to get a `fetch` expression that includes cookie data.  
+To get a `fetch` expression that includes cookie data, hover on a network request, open the contextual menu \(right-click\), and choose **Copy** > **Copy as Node.js fetch**.  
 
 :::image type="complex" source="../../images/2020/01/fetchcookies.msft.png" alt-text="Copy as Node.js fetch" lightbox="../../images/2020/01/fetchcookies.msft.png":::
    Copy as Node.js fetch  
@@ -263,17 +262,17 @@ Previously, the Manifest pane in the Application panel sent its own requests in 
 
 Chromium issue [#985402][CR985402]  
 
-### Hover over CSS content properties to see unescaped values  
+### Hover on CSS content properties to display unescaped values  
 
-Hover over the value of a `content` property to see the unescaped version of the value.  
+Hover on the value of a `content` property to display the unescaped version of the value.  
 
-For example, in this [demo][CSSContentDemo] when you inspect the `p::after` pseudo-element you see an escaped string in the Styles pane:  
+For example, in this [demo][CSSContentDemo] when you inspect the `p::after` pseudo-element an escaped string is displayed in the **Styles** pane:  
 
 :::image type="complex" source="../../images/2020/01/escapedstring.msft.png" alt-text="The escaped string" lightbox="../../images/2020/01/escapedstring.msft.png":::
    The escaped string  
 :::image-end:::  
 
-When you hover over the `content` value you see the unescaped value:  
+When you hover on the `content` value, the unescaped value is displayed.  
 
 :::image type="complex" source="../../images/2020/01/unescapedstring.msft.png" alt-text="The unescaped value" lightbox="../../images/2020/01/unescapedstring.msft.png":::
    The unescaped value  
@@ -289,7 +288,7 @@ The Console now provides more detail on why a source map failed to load or parse
 
 ### Setting for disabling scrolling past the end of a file  
 
-Open [Settings][Settings] and then disable **Preferences** > **Sources** > **Allow scrolling past end of file** to disable the default UI behavior that allows you to scroll well past the end of a file in the **Sources** panel.  
+Open [Settings][DevtoolsCustomizeIndexSettings] and then disable **Preferences** > **Sources** > **Allow scrolling past end of file** to disable the default UI behavior that allows you to scroll well past the end of a file in the **Sources** panel.  
 
 :::image type="complex" source="../../images/2020/01/settings.msft.png" alt-text="Disabling Allow scrolling past end of file" lightbox="../../images/2020/01/settings.msft.png":::
    Disabling **Allow scrolling past end of file** in Settings  
@@ -309,35 +308,36 @@ If you are on Windows or macOS, consider using the [Microsoft Edge preview chann
 
 <!-- links -->  
 
-[DeviceToolbar]: /microsoft-edge/devtools-guide-chromium/device-mode/index#simulate-a-mobile-viewport "Simulate a mobile viewport - Simulate mobile devices with Device Mode in Microsoft Edge DevTools | Microsoft Docs"
-[DeviceFrame]: /microsoft-edge/devtools-guide-chromium/device-mode/index#show-device-frame "Show device frame - Simulate mobile devices with Device Mode in Microsoft Edge DevTools | Microsoft Docs"
-[CommandMenu]: /microsoft-edge/devtools-guide-chromium/command-menu/index "Run commands with the Microsoft Edge DevTools Command Menu | Microsoft Docs"  
-[ThrottleNetworkAndCpu]: /microsoft-edge/devtools-guide-chromium/device-mode/index#throttle-the-network-and-cpu "Throttle the network and CPU - Simulate mobile devices with Device Mode in Microsoft Edge DevTools | Microsoft Docs"
-[Settings]: /microsoft-edge/devtools-guide-chromium/customize/index#settings "Settings - Customize Microsoft Edge DevTools | Microsoft Docs"
-[MicrosoftVisualStudio]: /microsoft-edge/visual-studio/index "Visual Studio | Microsoft Docs"  
-[CookiesFields]: /microsoft-edge/devtools-guide-chromium/storage/cookies#fields "Fields - View, edit, and delete cookies with Microsoft Edge DevTools | Microsoft Docs"  
+[DevtoolsDeviceModeIndexSimulateMobileViewport]: ../../../device-mode/index.md#simulate-a-mobile-viewport "Simulate a mobile viewport - Simulate mobile devices with Device Mode in Microsoft Edge DevTools | Microsoft Docs"
+[DevtoolsDeviceModeIndexShowDeviceFrame]: ../../../device-mode/index.md#show-device-frame "Show device frame - Simulate mobile devices with Device Mode in Microsoft Edge DevTools | Microsoft Docs"
+[DevtoolsCommandMenuIndex]: ../../../command-menu/index.md "Run commands with the Microsoft Edge DevTools Command Menu | Microsoft Docs"  
+[DevtoolsDeviceModeIndexThrottleNetworkCpu]: ../../../device-mode/index.md#throttle-the-network-and-cpu "Throttle the network and CPU - Simulate mobile devices with Device Mode in Microsoft Edge DevTools | Microsoft Docs"
+[DevtoolsCustomizeIndexSettings]: ../../../customize/index.md#settings "Settings - Customize Microsoft Edge DevTools | Microsoft Docs"
+[DevtoolsStorageCookiesFields]: ../../../storage/cookies.md#fields "Fields - View, edit, and delete cookies with Microsoft Edge DevTools | Microsoft Docs"  
 
-[VisualStudioCodeDebuggerEdgeExtension]: /microsoft-edge/visual-studio-code/debugger-for-edge "Debugger for Microsoft Edge Visual Studio Code extension"  
-[VisualStudioCodeElementEdgeExtension]: /microsoft-edge/visual-studio-code/elements-for-edge "Elements for Microsoft Edge Visual Studio Code extension"  
+[VisualStudioIndex]: ../../../../visual-studio/index.md "Visual Studio | Microsoft Docs"  
 
-[MicrosoftEdgePreviewChannels]: https://aka.ms/microsoftedge "Microsoft Edge Preview Channels"  
+[VisualStudioCodeDebuggerEdgeExtension]: ../../../../visual-studio-code/debugger-for-edge.md "Debugger for Microsoft Edge Visual Studio Code extension | Microsoft Docs"  
+[VisualStudioCodeElementEdgeExtension]: ../../../../visual-studio-code/elements-for-edge.md "Elements for Microsoft Edge Visual Studio Code extension | Microsoft Docs"  
 
-[VisualStudioCode]: https://aka.ms/vscode "Visual Studio Code"  
-[VisualStudioMarketplaceDebuggerEdge]: https://aka.ms/debugger4code "Debugger for Microsoft Edge - Visual Studio Marketplace"  
-[VisualStudioMarketplaceElementsMicrosoftEdgeChromiumExtension]: https://aka.ms/elements4code "Elements for Microsoft Edge \(Chromium\) - Visual Studio Marketplace"  
-[VisualStudioMarketplaceWebhintExtension]: https://aka.ms/webhint4code "webhint - Visual Studio Marketplace"
+[MicrosoftEdgePreviewChannels]: https://www.microsoftedgeinsider.com/download "Microsoft Edge Preview Channels"  
 
-[TrackingPrevention]: https://aka.ms/microsoftedge/tracking-prevention-blog "Improving Tracking Prevention in Microsoft Edge blog post"
+[VisualStudioCode]: https://code.visualstudio.com "Visual Studio Code"  
+[VisualStudioMarketplaceDebuggerEdge]: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-edge "Debugger for Microsoft Edge | Visual Studio Marketplace"  
+[VisualStudioMarketplaceElementsMicrosoftEdgeChromiumExtension]: https://marketplace.visualstudio.com/items?itemName=ms-edgedevtools.vscode-edge-devtools "Elements for Microsoft Edge \(Chromium\) | Visual Studio Marketplace"  
+[VisualStudioMarketplaceWebhintExtension]: https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint "webhint | Visual Studio Marketplace"
 
-[MicrosoftEdgeInsiderAddons]: https://aka.ms/webhint/edge-extension "Microsoft Edge Insider Addons"  
-[MicrosoftVisualStudioDownloads]: https://aka.ms/vs/download "Download Visual Studio 2019 for Windows & Mac"  
+[TrackingPrevention]: https://blogs.windows.com/msedgedev/2019/12/03/improving-tracking-prevention-microsoft-edge-79 "Improving Tracking Prevention in Microsoft Edge blog post"
 
-[PostTweetEdgeDevTools]: https://aka.ms/tweet/edgedevtools "@EdgeDevTools | Post a Tweet"  
+[MicrosoftEdgeInsiderAddons]: https://microsoftedge.microsoft.com/addons/detail/webhint/mlgfbihcfnkaenjpdcngdnhcpkdmcdee "Microsoft Edge Insider Addons"  
+[MicrosoftVisualStudioDownloads]: https://visualstudio.microsoft.com/downloads "Download Visual Studio 2019 for Windows & Mac"  
+
+[PostTweetEdgeDevTools]: https://twitter.com/intent/tweet?text=@EdgeDevTools "@EdgeDevTools | Post a Tweet"  
 
 [CR924693]: https://crbug.com/924693 "Feature Request: Add Moto G4 To Device Mode List | Chromium Bugs"  
 [CR1030258]: https://crbug.com/1030258 "CR 1030258 | Chromium Bugs"  
 [CR1026879]: https://crbug.com/1026879 "Cookie tab in the dev console doesn't show priority anymore | Chromium Bugs"  
-[CR1029826]: https://crbug.com/1029826 "network tab -> right click to request -> copy -> copy as fetch does not copy cookies | Chromium Bugs"  
+[CR1029826]: https://crbug.com/1029826 "network tab -> right choose to request -> copy -> copy as fetch does not copy cookies | Chromium Bugs"  
 [CR985402]: https://crbug.com/985402 "web app manifest icon error strings are confusing | Chromium Bugs"  
 [CR963183]: https://crbug.com/963183 "DevTools are not WCAG compliant | Chromium Bugs"  
 [CR941561]: https://crbug.com/941561 "Localizability of the DevTools | Chromium Bugs"  
@@ -345,22 +345,22 @@ If you are on Windows or macOS, consider using the [Microsoft Edge preview chann
 
 [CSSContentDemo]: https://mathiasbynens.github.io/css-dbg-stories/css-escapes.html "Demo for unescaped CSS content"  
 
-[GitHubMicrosoftDocsEdgeDeveloperNewIssue]: https://aka.ms/edgedevtoolsdocs/feedback "New Issue - MicrosoftDocs/edge-developer"  
+[GitHubMicrosoftDocsEdgeDeveloperNewIssue]: https://github.com/MicrosoftDocs/edge-developer/issues/new?title=[DevTools%20Docs%20Feedback] "New Issue - MicrosoftDocs/edge-developer"  
 
-[TheWebWeWant]: https://aka.ms/webwewant "The Web We Want"  
-[AccessibilityInsights]: https://aka.ms/a11yinsights "Accessibility Insights"  
+[TheWebWeWant]: https://webwewant.fyi "The Web We Want"  
+[AccessibilityInsights]: https://accessibilityinsights.io "Accessibility Insights"  
 [MDNDocumentObjectModel]: https://developer.mozilla.org/docs/Web/API/Document_Object_Model "Document Object Model (DOM) | MDN"  
 [MDNZIndex]: https://developer.mozilla.org/docs/Web/CSS/z-index "z-index | MDN"  
-[EdgeDevToolsTwitterAccount]: https://aka.ms/twitter/edgedevtools "@EdgeDevTools Twitter account"  
+[EdgeDevToolsTwitterAccount]: https://twitter.com/EdgeDevTools "@EdgeDevTools Twitter account"  
 
-[Webhint]: https://aka.ms/webhint "webhint"  
+[Webhint]: https://webhint.io "webhint"  
 
-[WebhintBrowserExtension]: https://aka.ms/webhint/browser-extension "Webhint Browser Extension | webhint documentation"  
-[WebhintVisualStudioCodeExtension]: https://aka.ms/webhint/code-extension "Webhint Visual Studio Code Extension | webhint documentation"  
+[WebhintBrowserExtension]: https://webhint.io/docs/user-guide/extensions/extension-browser "Webhint Browser Extension | webhint documentation"  
+[WebhintVisualStudioCodeExtension]: https://webhint.io/docs/user-guide/extensions/vscode-webhint "Webhint Visual Studio Code Extension | webhint documentation"  
 
 > [!NOTE]
 > Portions of this page are modifications based on work created and [shared by Google][GoogleSitePolicies] and used according to terms described in the [Creative Commons Attribution 4.0 International License][CCA4IL].  
-> The original page is found [here](https://developers.google.com/web/updates/2020/01/devtools/index) and is authored by [Kayce Basques][KayceBasques] \(Technical Writer, Chrome DevTools \& Lighthouse\).  
+> The original page is found [here](https://developer.chrome.com/blog/new-in-devtools-81) and is authored by [Kayce Basques][KayceBasques] \(Technical Writer, Chrome DevTools \& Lighthouse\).  
 
 [![Creative Commons License][CCby4Image]][CCA4IL]  
 This work is licensed under a [Creative Commons Attribution 4.0 International License][CCA4IL].  
@@ -368,4 +368,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  

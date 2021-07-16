@@ -9,7 +9,7 @@ metadata:
   ms.topic: hub-page
   author: MSEdgeTeam
   ms.author: msedgedevrel
-  ms.date: 12/10/2020
+  ms.date: 04/06/2021
   ms.localizationpriority: high
 
 # highlightedContent section (optional)
@@ -196,11 +196,11 @@ additionalContent:
             - text: Manage account settings
               url: /microsoft-edge/extensions-chromium/publish/manage-settings
         # Card
-        - title: "Extensions: Microsoft Edge Addons Policies"
+        - title: "Extensions: Microsoft Edge Add-ons Policies"
           links:
-            - text: Content Security Policy
+            - text: Content security policy
               url: /microsoft-edge/extensions-chromium/store-policies/csp
-            - text: Microsoft Edge Addons Catalog Developer Policies
+            - text: Microsoft Edge Add-ons store developer policies
               url: /microsoft-edge/extensions-chromium/store-policies/developer-policies
         # Card
         - title: Progressive Web Apps
@@ -255,8 +255,8 @@ additionalContent:
         # Card
         - title: Reference
           links:
-            - text: Microsoft Edge user agent string
-              url: /microsoft-edge/web-platform/user-agent-string
+            - text: How to detect Microsoft Edge in your website
+              url: /microsoft-edge/web-platform/user-agent-guidance
             - text: Platform Status
               url: https://developer.microsoft.com/microsoft-edge/platform/status
             - text: Visual Studio Code
@@ -267,4 +267,4 @@ additionalContent:
         - title: Microsoft Edge Legacy documentation
           links:
             - text: Microsoft Edge Legacy documentation
-              url: /microsoft-edge/edgehtml/index
+              url: /archive/microsoft-edge/legacy/developer/

@@ -1,9 +1,9 @@
 ---
 description: Learn how to detect network issues in the Network panel of Microsoft Edge DevTools.
-title: Network Issues Guide
+title: Network issues guide
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 10/19/2020 
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,12 +21,11 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->
-
 # Network issues guide  
 
 This guide shows you how to detect network issues or optimization opportunities in the Network panel of Microsoft Edge DevTools.  
 
-See [Get Started][NetworkPerformance] to learn the basics of the **Network** panel.  
+To learn the basics of the **Network** tool, navigate to [Get Started][NetworkPerformance].  
 
 ## Queued or stalled requests  
 
@@ -37,7 +36,7 @@ Six requests are downloading simultaneously.  After that, a series of requests a
 In the **Waterfall** in the following figure, the first six requests for the `edge-iconx1024.msft.png` asset start simultaneously.  The subsequent requests are stalled until one of the original six finishes.  
 
 :::image type="complex" source="../media/network-network-disabled-cache-resources-queue.msft.png" alt-text="An example of a queued or stalled series in the Network panel" lightbox="../media/network-network-disabled-cache-resources-queue.msft.png":::
-   An example of a queued or stalled series in the **Network** panel  
+   An example of a queued or stalled series in the **Network** tool  
 :::image-end:::  
 
 **Causes**  
@@ -99,16 +98,12 @@ In the following figure, the long, blue bar in the **Waterfall** next to the png
 Do you have a network issue that should be added to this guide?  
 
 *   Send a tweet to [@EdgeDevTools][MicrosoftEdgeTweet].  
-*   Choose **Send Feedback** \(![Send Feedback][ImageSendFeedbackIcon]\) in the DevTools or select `Alt`+`Shift`+`I` \(Windows, Linux\) or `Option`+`Shift`+`I` \(macOS\) to provide feedback or feature requests.  
+*   Choose **Send Feedback** \(![Send Feedback](../media/smile-icon.msft.png)\) in the DevTools or select `Alt`+`Shift`+`I` \(Windows, Linux\) or `Option`+`Shift`+`I` \(macOS\) to provide feedback or feature requests.  
 *   [Open an issue][WebFundamentalsIssue] on the docs repo.  -->  
     
 ## Getting in touch with the Microsoft Edge DevTools team  
 
 [!INCLUDE [contact DevTools team note](../includes/contact-devtools-team-note.md)]  
-
-<!-- image links -->  
-
-[ImageSendFeedbackIcon]: ../media/smile-icon.msft.png  
 
 <!-- links -->  
 
@@ -128,5 +123,5 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
-[JonathanGarbee]: https://developers.google.com/web/resources/contributors/jonathangarbee
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  
+[JonathanGarbee]: https://developers.google.com/web/resources/contributors#jonathan-garbee

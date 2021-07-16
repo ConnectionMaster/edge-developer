@@ -3,7 +3,7 @@ description: How to view and edit localStorage with the Local Storage pane and t
 title: View And Edit Local Storage With Microsoft Edge DevTools
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 12/11/2020
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,7 +21,6 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->  
-
 # View and edit local storage with Microsoft Edge DevTools  
 
 This guide shows you how to use [Microsoft Edge DevTools][MicrosoftEdgeDevTools] to view, edit, and delete [localStorage][MDNWindowsLocalStorage] key-value pairs.  
@@ -74,12 +73,12 @@ This guide shows you how to use [Microsoft Edge DevTools][MicrosoftEdgeDevTools]
 
 1.  [View the `localStorage` key-value pairs of a domain](#view-localstorage-keys-and-values).  
 1.  Choose the key-value pair that you want to delete.  DevTools highlights it blue to indicate that it is selected.  
-1.  Select the `Delete` key or choose **Delete Selected** \(![Delete Selected][ImageDeleteIcon]\).  
+1.  Select the `Delete` key or choose **Delete Selected** \(![Delete Selected](../media/delete-icon.msft.png)\).  
     
 ## Delete all `localStorage` key-value pairs for a domain  
 
 1.  [View the `localStorage` key-value pairs of a domain](#view-localstorage-keys-and-values).  
-1.  Choose **Clear All** \(![Clear All][ImageClearIcon]\).  
+1.  Choose **Clear All** \(![Clear All](../media/clear-icon.msft.png)\).  
     
 ## Interact with localStorage from the Console  
 
@@ -101,11 +100,6 @@ Since you are able to run JavaScript in the **Console**, and since the **Console
 
 [!INCLUDE [contact DevTools team note](../includes/contact-devtools-team-note.md)]  
 
-<!-- image links -->  
-
-[ImageClearIcon]: ../media/clear-icon.msft.png  
-[ImageDeleteIcon]: ../media/delete-icon.msft.png  
-
 <!-- links -->  
 
 [MicrosoftEdgeDevTools]: ../../devtools-guide-chromium/index.md "Microsoft Edge (Chromium) Developer tools | Microsoft Docs"  
@@ -122,4 +116,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  

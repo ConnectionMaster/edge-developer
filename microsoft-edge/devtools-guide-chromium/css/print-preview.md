@@ -1,9 +1,9 @@
 ---
-description: Open the "Rendering" tab and select "Emulate CSS media" > "print".
-title: Force Microsoft Edge DevTools Into Print Preview Mode (CSS Print Media Type)
+description: Open the "Rendering" tool and select Emulate CSS media > print.
+title: Force Microsoft Edge DevTools into Print Preview mode (CSS Print Media Type)
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 12/11/2020 
+ms.date: 05/04/2021 
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,8 +21,7 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->
-
-# Force Microsoft Edge DevTools into Print Preview mode (CSS Print Media Type)  
+# Force Microsoft Edge DevTools into Print Preview mode  
 
 The [print media query][MDNUsingMediaQueries] controls how your page looks when printed.  To force your page into print preview mode:  
 
@@ -39,7 +38,7 @@ The [print media query][MDNUsingMediaQueries] controls how your page looks when 
        Print preview mode  
     :::image-end:::  
     
-From here, you can view and change your CSS, like any other web page.  Navigate to [Get Started With Viewing And Changing CSS][DevToolsCSSGetStarted].  
+From here, you may display and change your CSS, like any other web page.  Navigate to [Get Started With Viewing And Changing CSS][DevToolsCSSGetStarted].  
 
 ## Getting in touch with the Microsoft Edge DevTools team  
 
@@ -62,4 +61,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  

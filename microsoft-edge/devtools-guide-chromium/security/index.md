@@ -1,9 +1,9 @@
 ---
 description: Use the Security Panel to make sure that a page is fully protected by HTTPS.
-title: Understand Security Issues With Microsoft Edge DevTools
+title: Understand security issues with Microsoft Edge DevTools
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 12/11/2020
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,10 +21,7 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->  
-
 # Understand security issues with Microsoft Edge DevTools  
-
-  
 
 <!--Use the **Security** Panel in [Microsoft Edge DevTools][MicrosoftEdgeDevTools] to make sure HTTPS is properly implemented on a page.  Navigate to **Why HTTPS Matters** to learn why every website should be protected with HTTPS, even sites that do not handle sensitive user data.  -->  
 
@@ -35,7 +32,7 @@ keywords: microsoft edge, web development, f12 tools, devtools
 The **Security** panel is the main place in DevTools for inspecting the security of a page.  
 
 1.  [Open DevTools][DevToolsOpen].  
-1.  Choose the **Security** tab to open the **Security** panel.  
+1.  Choose the **Security** tab to open the **Security** tool.  
     
     :::image type="complex" source="../media/security-security-overview-secure.msft.png" alt-text="The Security panel" lightbox="../media/security-security-overview-secure.msft.png":::
        The **Security** panel  
@@ -55,7 +52,7 @@ This problem occurs when the URL that you visited was requested over HTTP.  To m
 
 If you already set up HTTPS on your server, all you need to do to fix this problem is configure your server to redirect all HTTP requests to HTTPS.  
 
-If you have not set up HTTPS on your server, [Let's Encrypt][LetsEncrypt] provides a free and relatively-easy way to start the process.  Or, you might consider hosting your site on a CDN.  Most major CDNs host sites on HTTPS by default now.  
+If you have not set up HTTPS on your server, [Let's Encrypt][LetsEncrypt] provides a free and relatively-easy way to start the process.  Or, you may consider hosting your site on a CDN.  Most major CDNs host sites on HTTPS by default now.  
 
 > [!TIP]
 > The [Use HTTPS][WebhintUseHttps] hint in [webhint][Webhint] may help automate the process of making sure that all HTTP requests are directed to HTTPS.  
@@ -68,7 +65,7 @@ If you have not set up HTTPS on your server, [Let's Encrypt][LetsEncrypt] provid
    Mixed content  
 :::image-end:::  
 
-In the previous figure, choose **View 1 request in Network panel** to open the **Network** panel and apply the `mixed-content:displayed` filter so that the **Network Log** only shows non-secure resources.  
+In the previous figure, choose **View 1 request in Network panel** to open the **Network** tool and apply the `mixed-content:displayed` filter so that the **Network Log** only shows non-secure resources.  
 
 :::image type="complex" source="../media/security-network-filter.msft.png" alt-text="Mixed resources in the Network Log" lightbox="../media/security-network-filter.msft.png":::
    Mixed resources in the **Network Log**  
@@ -118,4 +115,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  

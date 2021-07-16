@@ -1,9 +1,9 @@
 ---
 description: Use Allocation instrumentation on timeline to find objects that are not being properly garbage collected, and continue to retain memory.
-title: How to Use Allocation Instrumentation on Timeline
+title: How to use Allocation instrumentation on Timeline
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 12/11/2020 
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,7 +21,6 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License. -->
-
 # How to use Allocation instrumentation on Timeline  
 
 Use **Allocation instrumentation on timeline** to find objects that are not being properly garbage collected, and continue to retain memory.  
@@ -65,7 +64,7 @@ The height of each bar corresponds to the size of the recently allocated objects
 :::image-end:::  
 
 <!--In the following figure, an action was performed 3 times.  The sample program caches five objects, so the last five blue bars are expected.  But the left-most blue bar indicates a potential problem.  -->  
-<!--todo: redo figure 4 with multiple click actions  -->  
+<!--todo: redo figure 4 with multiple choose actions  -->  
 
 You are able to use the sliders in the timeline above to zoom into that particular snapshot and review the objects that were recently allocated at that point:  
 
@@ -73,7 +72,7 @@ You are able to use the sliders in the timeline above to zoom into that particul
    Zoom into snapshot  
 :::image-end:::  
 
-Clicking on a specific object in the heap shows the retaining tree in the bottom portion of the heap snapshot.  Examining the retaining path to the object should give you enough information to understand why the object was not collected, and you should make the necessary code changes to remove the unnecessary reference.  
+Choosing on a specific object in the heap shows the retaining tree in the bottom portion of the heap snapshot.  Examining the retaining path to the object should give you enough information to understand why the object was not collected, and you should make the necessary code changes to remove the unnecessary reference.  
 
 ## View memory allocation by function  
 
@@ -103,5 +102,5 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
-[MegginKearney]: https://developers.google.com/web/resources/contributors/megginkearney  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  
+[MegginKearney]: https://developers.google.com/web/resources/contributors#meggin-kearney  

@@ -3,7 +3,7 @@ description: IE mode and the Microsoft Edge (Chromium) DevTools
 title: Internet Explorer mode and the DevTools
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 12/11/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools, ie11, internet explorer 11, ie mode
@@ -65,15 +65,23 @@ To test your Internet Explorer 11-based website \(or app\) in Internet Explorer 
     *   Select `F12`.  
     *   Hover anywhere, open a contextual menu \(right-click\), and choose **Inspect element**.  For more information about how to use those tools, navigate to [Using the F12 developer tools][PreviousVersionsWindowsInternetExplorerDeveloperSamplesbg182326].  
 
+If Internet Explorer 11 is not available, such as on Windows 11, you can use IEChooser to launch the Internet Explorer DevTools to debug the content of your IE mode tabs. To use IEChooser, perform the following steps.
+
+1.  Open IEChooser.
+    1. Open the Run dialog box. For example, press the `Windows logo key` + `R`.
+    2. Enter `%systemroot%\system32\f12\IEChooser.exe`, and then select **Ok**.
+2.  In IEChooser, select the entry for the IE mode tab.
+
+
 ## Remote debugging and IE mode  
 
-Launch Microsoft Edge \(Chromium\) with remote debugging turned on from the command-line interface.  Visual Studio, Visual Studio Code, and other development tools typically run a command to launch Microsoft Edge.  The following command launches Microsoft Edge with the remote debugging port set to `9222`.  
+Launch Microsoft Edge \(Chromium\) with remote debugging turned on from the command-line interface.  Microsoft Visual Studio, Microsoft Visual Studio Code, and other development tools typically run a command to launch Microsoft Edge.  The following command launches Microsoft Edge with the remote debugging port set to `9222`.  
 
 ```shell
 start msedge --remote-debugging-port=9222
 ```  
 
-After you launch Microsoft Edge \(Chromium\) using a command-line argument, IE mode is unavailable.  You may still navigate to websites \(or apps\) that would otherwise display in IE mode.  The website \(or app\) content renders using Chromium, not Internet Explorer 11.  Expect the parts of the webpages that rely on IE11, such as ActiveX controls, to not render correctly.  The IE mode badge does not appear in the address bar.  
+After you launch Microsoft Edge \(Chromium\) using a command-line argument, IE mode is unavailable.  You may still navigate to websites \(or apps\) that are otherwise displayed in IE mode.  The website \(or app\) content renders using Chromium, not Internet Explorer 11.  Expect the parts of the webpages that rely on IE11, such as ActiveX controls, to not render correctly.  The IE mode badge does not appear in the address bar.  
 
 IE mode remains unavailable until you completely close and restart Microsoft Edge \(Chromium\).  
 

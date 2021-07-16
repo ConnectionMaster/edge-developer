@@ -3,14 +3,14 @@ description: All about Service Worker improvements and how to use each one.
 title: Service Worker improvements
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 11/10/2020
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools, service worker, PWA
 ---
 # Service Worker improvements  
 
-This article teaches you about improvements to [service workers][MdnServiceWorkerApi] and the network requests that pass through each one.  The **service worker improvements** are in the **Network**, **Application**, and **Sources** tools.  The improvements include the following tasks.  
+This article teaches you about improvements to developer tools for working with [service workers][MdnServiceWorkerApi] and the network requests that pass through each one.  The **service worker improvements** are in the **Network**, **Application**, and **Sources** tools.  The improvements simplify the following tasks.  
 
 *   Debug based on Service Worker timelines.  
     *   The start of a request and duration of the bootstrap.  
@@ -19,13 +19,13 @@ This article teaches you about improvements to [service workers][MdnServiceWorke
     *   The runtime of all fetch events for loading a client.  
 *   Explore the runtime details of fetch event handlers, install event handlers, and activate event handlers.  
 *   Step into and out of fetch event handler with [page script information](#sources).  
-
+    
 The experiences span three different developer tools.  
 
 1.  The [Network](#network) tool.  Choose a network request that runs through a service worker and access the corresponding timeline of the service worker in the **Timing** tool.  
 1.  The [Application](#application) tool.  To debug the service workers, navigate to the **Service Workers** tool.  
 1.  The [Sources](#sources) tool.  Access page script information when stepping into fetch event handlers.  
-
+    
 ## Network  
 
 :::image type="complex" source="../media/sw-network-timeline.msft.png" alt-text="Service worker timeline in the Network tool" lightbox="../media/sw-network-timeline.msft.png":::
@@ -70,8 +70,8 @@ The **Network** tool displays the network requests that went through the service
 
 ## Sources  
 
-:::image type="complex" source="../media/sw-sources.msft.png" alt-text="DOM view" lightbox="../media/sw-sources.msft.png":::
-   DOM view  
+:::image type="complex" source="../media/sw-sources.msft.png" alt-text="DOM tree" lightbox="../media/sw-sources.msft.png":::
+   DOM tree  
 :::image-end:::  
 
 To find more stack information, set a break point in the fetch handler.  The details lead to where the resource is requested in the page script.  When the debugger pauses inside a fetch handler, a combined stack information is displayed in the panel to the right.  After that, you may move around in the stack frames.  

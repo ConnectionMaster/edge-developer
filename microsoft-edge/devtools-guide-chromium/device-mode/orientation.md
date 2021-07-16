@@ -1,9 +1,9 @@
 ---
-description: Open the Sensors tab and go to the Orientation section.
-title: Simulate Device Orientation With Microsoft Edge DevTools
+description: Open the Sensors tool and navigate to the Orientation section.
+title: Simulate device orientation with Microsoft Edge DevTools
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 10/19/2020 
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,7 +21,6 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->
-
 # Simulate device orientation with Microsoft Edge DevTools  
 
 Complete the following actions to simulate different device orientations from Microsoft Edge DevTools.  
@@ -34,18 +33,18 @@ Complete the following actions to simulate different device orientations from Mi
        The **Command Menu**  
     :::image-end:::  
     
-1.  Type `sensors`, choose **Show Sensors**, and select `Enter`.  The **Sensors** tab opens at the bottom of your DevTools window.  
+1.  Type `sensors`, choose **Show Sensors**, and select `Enter`.  The **Sensors** tool opens at the bottom of your DevTools window.  
 1.  From the **Orientation** list, select one of the preset orientations, such as `Portrait upside down`, or choose **Custom orientation** to provide your own exact orientation.  
     
     :::row:::
        :::column span="":::
-          :::image type="complex" source="../media/device-mode-console-sensors-orientation-portrait-upside-down.msft.png" alt-text="Select Portrait upside down from the Orientation list" lightbox="../media/device-mode-console-sensors-orientation-portrait-upside-down.msft.png":::
-             Select `Portrait upside down` from the **Orientation** list  
+          :::image type="complex" source="../media/device-mode-console-sensors-orientation-portrait-upside-down.msft.png" alt-text="Choose Portrait upside down from the Orientation list" lightbox="../media/device-mode-console-sensors-orientation-portrait-upside-down.msft.png":::
+             Choose `Portrait upside down` from the **Orientation** list  
           :::image-end:::  
        :::column-end:::
        :::column span="":::
           After you choose **Custom orientation**, the `alpha`, `beta`, and `gamma` fields are enabled.  
-          <!--See [Alpha][alpha], [Beta][beta], and [Gamma][gamma] to understand how each axis works.  -->  
+          <!--To understand how each axis works, navigate to [Alpha][alpha], [Beta][beta], and [Gamma][gamma].  -->  
           <!--todo: update links to alpha, beta, and gamma section when available -->  
           You are also able to set a custom orientation by dragging the **Orientation Model**.  Hold `Shift` before dragging to rotate along the `alpha` axis.  
           
@@ -76,4 +75,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  

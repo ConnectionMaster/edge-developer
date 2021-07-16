@@ -1,9 +1,9 @@
 ---
-description: Open the Network conditions tab, disable Select automatically, and choose from the list or enter a custom string.
-title: Override The User Agent String From Microsoft Edge DevTools
+description: Open the Network conditions tool, disable Select automatically, and choose from the list or enter a custom string.
+title: Override the user agent string from Microsoft Edge DevTools
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 10/19/2020 
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: microsoft edge, web development, f12 tools, devtools
@@ -21,7 +21,6 @@ keywords: microsoft edge, web development, f12 tools, devtools
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->
-
 # Override the user agent string from Microsoft Edge DevTools  
 
 To override the [user agent][MDNUserAgent] string from Microsoft Edge DevTools:  
@@ -32,14 +31,14 @@ To override the [user agent][MDNUserAgent] string from Microsoft Edge DevTools:
        The **Command Menu**  
     :::image-end:::  
     
-1.  Type `network conditions`, choose **Show Network conditions**, and select `Enter` to open the **Network conditions** tab.  
-1.  In the **User agent** section, disable the **Select automatically** checkbox.  
+1.  Type `network conditions`, choose **Show Network conditions**, and select `Enter` to open the **Network conditions** tool.  
+1.  In the **User agent** section, turn off the **Select automatically** checkbox.  
     
-    :::image type="complex" source="../media/device-mode-console-network-conditions-user-agent-select-automatically-deselected.msft.png" alt-text="Disable Select automatically" lightbox="../media/device-mode-console-network-conditions-user-agent-select-automatically-deselected.msft.png":::
-       Disable **Select automatically**  
+    :::image type="complex" source="../media/device-mode-console-network-conditions-user-agent-select-automatically-deselected.msft.png" alt-text="Turn off Select automatically" lightbox="../media/device-mode-console-network-conditions-user-agent-select-automatically-deselected.msft.png":::
+       Turn off **Select automatically**  
     :::image-end:::  
     
-1.  Select a user agent string from the list, or enter your own custom string.  
+1.  Choose a user agent string from the list, or enter your own custom string.  
     
 ## Getting in touch with the Microsoft Edge DevTools team  
 
@@ -59,4 +58,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
 [GoogleSitePolicies]: https://developers.google.com/terms/site-policies  
-[KayceBasques]: https://developers.google.com/web/resources/contributors/kaycebasques  
+[KayceBasques]: https://developers.google.com/web/resources/contributors#kayce-basques  
